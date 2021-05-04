@@ -1,0 +1,19 @@
+
+/* selector universal para resetear lo que viene por defecto en el navegador */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Declaramos variable*/
+:root{
+    --colorPrimario:#00669F;
+    --colorNav: #001D2D;
+    --colorHQ: #2C0187;
+    --colorSecundario: #1CD1B0;
+    --colorH2Form: #333333;
+    --colorBotonReset: #888888;
+    --colorHover:  #AFF9FE;
+    ;
+
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Karla:wght@200;400;700&display=swap');
+@import "variables.css";
+@import "header+footer.css";
+
+.divr, .divc, .divl{
+    width: 35%;
+    margin: 10% auto;
+    text-align: center;
+}
+
+h2{
+    color: var(--colorH2Form);
+    font-family: 'Inter';
+    font-size: 3em;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+form{
+    display: block;
+    width: 100%;
+}
+
+form input, form select, form textarea{
+    width: 100%;
+    margin: 2% 0;
+    padding: 10px 5px;
+    font-family: 'karla';
+    outline: none;
+}
+
+form input:focus, select:focus, textarea:focus{
+    background-color: var(--colorHover);
+}
+
+
+textarea{
+    height: 150px;
+}
+ 
+::placeholder{
+    color: black;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'karla';
+}
+
+a span{
+    color:var(--colorPrimario);
+}
+
+/*registro y contacto*/
+
+.botonesx2{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+
+}
+
+.botonReset{
+    background-color: var(--colorBotonReset);
+    border-radius: 50px;
+    border-color: var(--colorBotonReset);
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: white;
+    margin: 7.5% 1% 1% 0;
+    width: 48%;
+       
+}
+
+.botonSumit{
+    background-color: var(--colorSecundario);
+    border-radius: 50px;
+    border-color: var(--colorSecundario);
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: black;
+    margin-top: 7.5%;
+    margin: 7.5% 0 1% 1%;
+    width: 48%;
+    
+}
+
+/*login*/
+#botonl{
+    background-color: var(--colorSecundario);
+    border-radius: 50px;
+    border-color: var(--colorSecundario);
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: black;
+    margin-top: 7.5%;
+}
+

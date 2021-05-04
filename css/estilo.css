@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Karla:wght@200&display=swap');
+@import "variables.css";
+@import "header+footer.css";
+
+/*font-family: 'Roboto', sans-serif;*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.boton {
+    color: white;
+    background-color: var(--colorPrimario);
+    border-radius: 7%;
+    padding: 5px 15px;
+    text-decoration: none;   
+    text-align: center; 
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 85px;
+}
+
+.positivo {
+    color: var(--colorPrimario);
+    font-size: 70px;
+    position:fixed;
+    right: 5%;
+    bottom: 25%;
+    transition: transform 0.5s;
+}
+
+.positivo:hover{
+    color: var(--colorNav);
+    transform: scale(1.2);
+}
+
+.Card {
+    margin: 40px 30px;
+    width: 300px;     
+    position: relative; 
+    display:inline-block;  
+    transition: transform 0.5s;
+}
+
+.Card:hover{
+    transform: scale(1.2);
+}
+
+.heart i {
+    color: #CC2424;
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.BG1 {
+    background-image: url('../img/bg-batman.jpg');
+    background-size: cover;
+    border-radius: 10% 10% 0 0;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.BG2 {
+    background-image: url('../img/bg-hq.png');
+    background-size: cover;
+    border-radius: 10% 10% 0 0;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.BG3 {
+    background-image: url('../img/bg-superman.jpg');
+    background-size: cover;
+    border-radius: 10% 10% 0 0;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.Contenido {
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding: 60px 10px 20px;
+    position: relative;
+
+}
+
+.perfil {
+    border-radius: 50% ;
+    width: 45%;
+    position: absolute;
+    top: -30%;
+    left: 28%;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.texto { 
+    line-height: 25px;
+    text-align:left;
+    padding-bottom: 15px;
+}
+
+/*Harley Quinn*/
+
+.h1hq { 
+    background-color: var(--colorPrimario);
+    color: white;
+    font-weight: normal;
+    margin-top: 0;    
+    padding: 15px 0;
+    position: relative;
+    top: 10%;
+    left: 1%;
+    width: 100%;
+}
+
+.BGhq{
+    background-image: url("../img/bg-hq.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.cardPersonal{
+    margin:10% auto;
+    width: 550px;
+}
+
+.arriba{
+    background-color: white;    
+    border-radius: 45px 45px 0 0;
+    text-align: center;
+    padding: 70px 15px 20px;
+    position: relative;
+}
+
+.abajo{
+    background-color: var(--colorHQ);
+    border-radius: 0 0 45px 45px;
+    text-align: center;
+    padding: 40px;
+}
+
+.perfilhq{
+    border-radius: 50% ;
+    width: 30%;
+    position: absolute;
+    top: -25%;
+    left: 35%;
+}
+
+.hearthq{
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+
+.h2hq{
+    color: var(--colorHQ);
+    font-size: 2rem;
+    font-weight: normal;
+    text-decoration: underline;
+    margin: 2%;
+}
+
+.spanhq, .spanhqi {
+    color: var(--colorHQ);
+    font-weight: bold;
+}
+
+.spanhqi{
+    font-style: italic;
+}
+
+.abajo a{
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+/*Añadir Super*/
+
+.AñadirSuper {
+    background-color: var(--colorPrimario);
+    color:white;
+    width: 50%;
+    margin: 5% auto;
+    padding: 1% 4%;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 49px;
+}
+
+h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+h4{
+    font-weight: normal;
+    text-align: center;
+    word-spacing: 0.1rem;
+}
+
+.columna { 
+    display: inline-block;
+    width: 45%;
+    height: 65%;
+    margin: 0% 2%;
+         
+}
+
+.C2{
+    vertical-align: top;
+}
+
+.izq{
+    margin: 10% auto;
+}
+
+.der {
+    margin: 10% auto;
+    
+}
+
+.linea{
+    border-bottom: 1px solid #CCCCCC;
+    width: 100%;
+}
+
+label, input, textarea, select {
+    display: block;
+    width: 100%;
+    outline: none;
+}
+
+textarea{
+    height: 45vh;
+}
+
+.file{
+    margin: 13% 0;
+}
+
+.izq input, textarea, select {
+    padding: 5% 0 5% 2%;
+    border-radius: 12px;
+}
+
+label{
+    margin: 5% 0;
+    font-size: 18px;
+}
+
+.bq {
+    display: block ;
+}
+
+.bq label, .bq input {
+    display: inline;
+    font-size: 16px;
+    width: auto;
+    margin: 2%;
+}
+
+.bq input{
+    transform: scale(1.5);
+    border: none
+}
+
+.botonFormII {
+    background-color: var(--colorSecundario);
+    border: var(--colorSecundario);
+    border-radius: 15px;
+    color:black;
+    font-size: 2.5em;
+    font-weight: bold;
+    width: 60%;
+    margin: 0 auto;
+    padding: 3% 4% ;
+}
+
+.botonFormII:hover{
+    background-color: var(--colorNav);
+    color: white;
+}
+
+input:focus, select:focus, textarea:focus{
+    background-color: var(--colorHover);
+    border: none;
+
+}
+
+
+input[type='checkbox']:checked{
+    background-color: var(--colorHover);
+    border: none;
+}
+
+
+
+
